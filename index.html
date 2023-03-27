@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  
+</head>
+<body>
+    <h2 class="text-center mb-4 text-success">Registration Form</h2>
+
+          <form action="registration.php" method="post">
+            <div class="mb-3">
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                class="form-control border border-success"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                class="form-control border border-success"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control border border-success email"
+                id="email"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                name="password"
+                class="form-control border border-success"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Confirm Password</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                class="form-control border border-success"
+                required
+              />
+            </div>
+
+            <div class="d-grid">
+              <button class="btn btn-success" type="submit" name="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+ 
+</body>
+</html>
+
+
+
+
